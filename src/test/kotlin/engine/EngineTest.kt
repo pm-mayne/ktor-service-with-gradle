@@ -9,8 +9,8 @@ class EngineTest {
     fun testNominalCase() {
         val input = listOf(4, 4, 1, 1, 2, 8, 8, 8, 10, 2, 3, 4, 3, 3, 5, 6, 7, 7, 8)
 
-        val triplicatesRemoved = Engine.removeDuplicated(input, 2)
-        val duplicatesRemoved = Engine.removeDuplicated(input, 1)
+        val triplicatesRemoved = Engine.removeDuplicates(input, 2)
+        val duplicatesRemoved = Engine.removeDuplicates(input, 1)
 
         println(triplicatesRemoved)
         println(duplicatesRemoved)
